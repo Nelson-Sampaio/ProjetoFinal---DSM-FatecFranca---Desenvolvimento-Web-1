@@ -1,0 +1,175 @@
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 1030;
+  background-color: var(--natal-red);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08);
+}
+
+.inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* Mantém o hambúrguer na direita no mobile e os links na direita no desktop */
+  gap: 0.25rem; /* Distância entre a logo e o menu */
+  padding-top: 0.15rem;
+  padding-bottom: 0.15rem;
+}
+/* ---------- Brand ---------- */
+.brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.8rem;
+  text-decoration: none;
+  color: #fff;
+  transition: transform var(--motion-fast) var(--easing);
+}
+.brand:hover { transform: translateY(-1px); }
+
+.logo {
+  height: 90px;
+  width: auto;
+  display: block;
+}
+
+.brandText {
+  font-weight: 800;
+  font-size: 1.35rem;
+  letter-spacing: 0.02em;
+  white-space: nowrap;
+}
+
+/* ---------- Toggle (mobile) ---------- */
+.toggle {
+  display: none;
+  background: transparent;
+  border: 0;
+  color: #fff;
+  padding: 0.25rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: background-color var(--motion-fast) var(--easing);
+}
+.toggle:hover { background-color: rgba(255, 255, 255, 0.15); }
+
+/* ---------- Nav ---------- */
+.nav { 
+  display: flex; 
+  align-items: center;
+  flex: 1; /* Faz o menu ocupar o espaço restante da tela */
+  justify-content: flex-end; /* Empurra os links para perto da logo (ou para a direita) */
+}
+.navList {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: nowrap; /* OBRIGA os links a ficarem na mesma linha no desktop */
+  gap: 0.5rem; /* Diminuí um pouco o espaço entre os links para caberem todos na linha */
+  justify-content: flex-start;
+}
+
+.navItem { display: block; }
+
+.navLink {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.5rem 0.6rem; /* Reduzi o padding horizontal para caber tudo */
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 0.9rem; /* Fonte levemente menor para garantir que caibam os 7 links */
+  white-space: nowrap; /* Impede que o texto do link quebre em duas linhas */
+  border-radius: 0.5rem;
+  transition: 
+    color var(--motion-fast) var(--easing),
+    transform var(--motion-fast) var(--easing);
+}
+
+/* Hover: apenas muda a cor do texto e do ícone */
+.navLink:hover {
+  color: var(--natal-green); /* Texto fica verde */
+  transform: translateY(-2px); /* Leve elevação */
+  background-color: transparent; /* Sem fundo */
+}
+
+.navLink:focus-visible {
+  outline: 2px solid var(--natal-green);
+  outline-offset: 2px;
+}
+
+.navIcon {
+  transition: transform var(--motion-base) var(--easing);
+}
+
+.navLink:hover .navIcon { 
+  transform: rotate(-8deg) scale(1.1); 
+  color: var(--natal-green); /* Ícone fica verde */
+}
+
+/* Link ativo: sem fundo, sem underline, apenas uma cor que se destaque sutilmente */
+.active {
+  color: var(--natal-green); /* O link ativo já fica verde por padrão */
+  background-color: transparent;
+}
+.active .navIcon {
+  color: var(--natal-green);
+}
+/* Remove o underline */
+.active::after {
+  display: none;
+}
+
+/* ---------- Mobile ---------- */
+@media (max-width: 991.98px) {
+  .inner { padding-top: 0.8rem; padding-bottom: 0.8rem; }
+  .toggle { display: inline-flex; }
+
+  .nav {
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: min(80vw, 320px);
+    background-color: var(--natal-red-dark);
+    padding: 5rem 1.5rem 1rem;
+    transform: translateX(100%);
+    transition: transform var(--motion-slow) var(--easing);
+    overflow-y: auto;
+    box-shadow: -8px 0 24px rgba(0, 0, 0, 0.2);
+  }
+  .navOpen { transform: translateX(0); }
+
+  .navList { 
+    flex-direction: column; 
+    gap: 0.5rem; 
+    justify-content: flex-start;
+  }
+  .navLink { 
+    width: 100%; 
+    font-size: 1rem; 
+    padding: 0.8rem 1rem; 
+  }
+  
+  /* No mobile, o hover não faz muito sentido, então deixamos o ativo destacado */
+  .navLink:hover { transform: none; }
+  .active { background-color: rgba(30, 86, 49, 0.2); } 
+
+  .overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.45);
+    z-index: -1;
+  }
+}
+
+/* ---------- Acessibilidade: reduz motion ---------- */
+@media (prefers-reduced-motion: reduce) {
+  .brand, .toggle, .navLink, .navIcon, .nav, .active::after {
+    transition: none !important;
+    animation: none !important;
+  }
+  .navLink:hover, .brand:hover { transform: none; }
+  .navLink:hover .navIcon { transform: none; }
+}

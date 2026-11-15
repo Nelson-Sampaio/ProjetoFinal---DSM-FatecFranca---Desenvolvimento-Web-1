@@ -1,0 +1,16 @@
+/* src/components/Tabela.module.css */
+.tabelaNatal tbody tr:nth-child(odd) {
+  background-color: #fdf8f0; /* Tom claro (creme) */
+  color: var(--text-dark);
+}
+
+.tabelaNatal tbody tr:nth-child(even) {
+  background-color: #c0392b; /* Vermelho escuro (#c0392b) */
+  color: #ffffff; /* Texto branco para dar contraste */
+}
+
+/* Ajusta o hover para não sobrescrever a cor no mobile */
+.tabelaNatal tbody tr:hover {
+  opacity: 0.9;
+  cursor: pointer;
+}

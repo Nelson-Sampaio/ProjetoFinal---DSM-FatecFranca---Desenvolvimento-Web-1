@@ -1,0 +1,475 @@
+
+[
+  {
+    "id": 1,
+    "titulo": "Dom Casmurro",
+    "autor": "Machado de Assis",
+    "genero": "Romance",
+    "ano_publicacao": 1899,
+    "paginas": 256
+  },
+  {
+    "id": 2,
+    "titulo": "O Hobbit",
+    "autor": "J.R.R. Tolkien",
+    "genero": "Fantasia",
+    "ano_publicacao": 1937,
+    "paginas": 310
+  },
+  {
+    "id": 3,
+    "titulo": "1984",
+    "autor": "George Orwell",
+    "genero": "Distopia",
+    "ano_publicacao": 1949,
+    "paginas": 416
+  },
+  {
+    "id": 4,
+    "titulo": "A Revolução dos Bichos",
+    "autor": "George Orwell",
+    "genero": "Fábula",
+    "ano_publicacao": 1945,
+    "paginas": 152
+  },
+  {
+    "id": 5,
+    "titulo": "O Senhor dos Anéis",
+    "autor": "J.R.R. Tolkien",
+    "genero": "Fantasia",
+    "ano_publicacao": 1954,
+    "paginas": 1178
+  },
+  {
+    "id": 6,
+    "titulo": "Cem Anos de Solidão",
+    "autor": "Gabriel García Márquez",
+    "genero": "Realismo Mágico",
+    "ano_publicacao": 1967,
+    "paginas": 432
+  },
+  {
+    "id": 7,
+    "titulo": "Crime e Castigo",
+    "autor": "Fiódor Dostoiévski",
+    "genero": "Romance Psicológico",
+    "ano_publicacao": 1866,
+    "paginas": 592
+  },
+  {
+    "id": 8,
+    "titulo": "Orgulho e Preconceito",
+    "autor": "Jane Austen",
+    "genero": "Romance",
+    "ano_publicacao": 1813,
+    "paginas": 424
+  },
+  {
+    "id": 9,
+    "titulo": "O Pequeno Príncipe",
+    "autor": "Antoine de Saint-Exupéry",
+    "genero": "Infantil",
+    "ano_publicacao": 1943,
+    "paginas": 96
+  },
+  {
+    "id": 10,
+    "titulo": "Harry Potter e a Pedra Filosofal",
+    "autor": "J.K. Rowling",
+    "genero": "Fantasia",
+    "ano_publicacao": 1997,
+    "paginas": 264
+  },
+  {
+    "id": 11,
+    "titulo": "O Código Da Vinci",
+    "autor": "Dan Brown",
+    "genero": "Suspense",
+    "ano_publicacao": 2003,
+    "paginas": 432
+  },
+  {
+    "id": 12,
+    "titulo": "A Menina que Roubava Livros",
+    "autor": "Markus Zusak",
+    "genero": "Drama",
+    "ano_publicacao": 2005,
+    "paginas": 480
+  },
+  {
+    "id": 13,
+    "titulo": "Memórias Póstumas de Brás Cubas",
+    "autor": "Machado de Assis",
+    "genero": "Romance",
+    "ano_publicacao": 1881,
+    "paginas": 208
+  },
+  {
+    "id": 14,
+    "titulo": "Grande Sertão: Veredas",
+    "autor": "João Guimarães Rosa",
+    "genero": "Romance",
+    "ano_publicacao": 1956,
+    "paginas": 624
+  },
+  {
+    "id": 15,
+    "titulo": "Vidas Secas",
+    "autor": "Graciliano Ramos",
+    "genero": "Regionalismo",
+    "ano_publicacao": 1938,
+    "paginas": 176
+  },
+  {
+    "id": 16,
+    "titulo": "O Cortiço",
+    "autor": "Aluísio Azevedo",
+    "genero": "Naturalismo",
+    "ano_publicacao": 1890,
+    "paginas": 304
+  },
+  {
+    "id": 17,
+    "titulo": "Capitães da Areia",
+    "autor": "Jorge Amado",
+    "genero": "Romance",
+    "ano_publicacao": 1937,
+    "paginas": 280
+  },
+  {
+    "id": 18,
+    "titulo": "A Hora da Estrela",
+    "autor": "Clarice Lispector",
+    "genero": "Romance",
+    "ano_publicacao": 1977,
+    "paginas": 96
+  },
+  {
+    "id": 19,
+    "titulo": "O Alquimista",
+    "autor": "Paulo Coelho",
+    "genero": "Ficção Filosófica",
+    "ano_publicacao": 1988,
+    "paginas": 208
+  },
+  {
+    "id": 20,
+    "titulo": "Sapiens",
+    "autor": "Yuval Noah Harari",
+    "genero": "História",
+    "ano_publicacao": 2011,
+    "paginas": 464
+  },
+  {
+    "id": 21,
+    "titulo": "O Poder do Hábito",
+    "autor": "Charles Duhigg",
+    "genero": "Autoajuda",
+    "ano_publicacao": 2012,
+    "paginas": 408
+  },
+  {
+    "id": 22,
+    "titulo": "A Arte da Guerra",
+    "autor": "Sun Tzu",
+    "genero": "Estratégia",
+    "ano_publicacao": -500,
+    "paginas": 128
+  },
+  {
+    "id": 23,
+    "titulo": "O Príncipe",
+    "autor": "Nicolau Maquiavel",
+    "genero": "Filosofia Política",
+    "ano_publicacao": 1532,
+    "paginas": 176
+  },
+  {
+    "id": 24,
+    "titulo": "Assim Falou Zaratustra",
+    "autor": "Friedrich Nietzsche",
+    "genero": "Filosofia",
+    "ano_publicacao": 1883,
+    "paginas": 496
+  },
+  {
+    "id": 25,
+    "titulo": "O Mundo de Sofia",
+    "autor": "Jostein Gaarder",
+    "genero": "Filosofia",
+    "ano_publicacao": 1991,
+    "paginas": 560
+  },
+  {
+    "id": 26,
+    "titulo": "A Metamorfose",
+    "autor": "Franz Kafka",
+    "genero": "Ficção Absurda",
+    "ano_publicacao": 1915,
+    "paginas": 96
+  },
+  {
+    "id": 27,
+    "titulo": "O Estrangeiro",
+    "autor": "Albert Camus",
+    "genero": "Existencialismo",
+    "ano_publicacao": 1942,
+    "paginas": 128
+  },
+  {
+    "id": 28,
+    "titulo": "O Nome do Vento",
+    "autor": "Patrick Rothfuss",
+    "genero": "Fantasia",
+    "ano_publicacao": 2007,
+    "paginas": 656
+  },
+  {
+    "id": 29,
+    "titulo": "Duna",
+    "autor": "Frank Herbert",
+    "genero": "Ficção Científica",
+    "ano_publicacao": 1965,
+    "paginas": 680
+  },
+  {
+    "id": 30,
+    "titulo": "Fundação",
+    "autor": "Isaac Asimov",
+    "genero": "Ficção Científica",
+    "ano_publicacao": 1951,
+    "paginas": 296
+  },
+  {
+    "id": 111,
+    "titulo": "Dominando o Android com Kotlin",
+    "autor": "Nelson Glauber",
+    "genero": "Programação",
+    "ano_publicacao": 2018,
+    "paginas": 496
+  },
+  {
+    "id": 123,
+    "titulo": "Introdução à linguagem Python",
+    "autor": "José Augusto N. G. Manzano",
+    "genero": "Programação",
+    "ano_publicacao": 2019,
+    "paginas": 304
+  },
+  {
+    "id": 124,
+    "titulo": "PHP Programando com Orientação a Objetos",
+    "autor": "Pablo Dall'Oglio",
+    "genero": "Programação",
+    "ano_publicacao": 2018,
+    "paginas": 568
+  },
+  {
+    "id": 125,
+    "titulo": "Laravel para ninjas",
+    "autor": "Ademir C. Gabardo",
+    "genero": "Programação",
+    "ano_publicacao": 2017,
+    "paginas": 400
+  },
+  {
+    "id": 126,
+    "titulo": "Padrões para Kubernetes",
+    "autor": "Bilgin Ibryam / Roland Huß",
+    "genero": "DevOps",
+    "ano_publicacao": 2020,
+    "paginas": 304
+  },
+  {
+    "id": 127,
+    "titulo": "Construindo Chatbots com Python",
+    "autor": "Sumit Raj",
+    "genero": "Programação",
+    "ano_publicacao": 2020,
+    "paginas": 296
+  },
+  {
+    "id": 128,
+    "titulo": "Problemas Clássicos de Ciência da Computação com Python",
+    "autor": "David Kopec",
+    "genero": "Programação",
+    "ano_publicacao": 2020,
+    "paginas": 256
+  },
+  {
+    "id": 129,
+    "titulo": "Internet das Coisas para Desenvolvedores",
+    "autor": "Ricardo da Silva Ogliari",
+    "genero": "IoT",
+    "ano_publicacao": 2019,
+    "paginas": 320
+  },
+  {
+    "id": 130,
+    "titulo": "Node Essencial",
+    "autor": "Ricardo R. Lecheta",
+    "genero": "Programação",
+    "ano_publicacao": 2018,
+    "paginas": 384
+  },
+  {
+    "id": 131,
+    "titulo": "Introdução ao Pentest",
+    "autor": "Daniel Moreno",
+    "genero": "Segurança",
+    "ano_publicacao": 2019,
+    "paginas": 336
+  },
+  {
+    "id": 132,
+    "titulo": "CSS Grid Layout",
+    "autor": "Maurício Samy Silva",
+    "genero": "Web Design",
+    "ano_publicacao": 2017,
+    "paginas": 256
+  },
+  {
+    "id": 133,
+    "titulo": "HTML5 - 2ª Edição",
+    "autor": "Maurício Samy Silva",
+    "genero": "Web Design",
+    "ano_publicacao": 2014,
+    "paginas": 736
+  },
+  {
+    "id": 134,
+    "titulo": "Web Design Responsivo",
+    "autor": "Maurício Samy Silva",
+    "genero": "Web Design",
+    "ano_publicacao": 2014,
+    "paginas": 336
+  },
+  {
+    "id": 135,
+    "titulo": "CSS3",
+    "autor": "Maurício Samy Silva",
+    "genero": "Web Design",
+    "ano_publicacao": 2013,
+    "paginas": 440
+  },
+  {
+    "id": 136,
+    "titulo": "Criando Sites com HTML",
+    "autor": "Maurício Samy Silva",
+    "genero": "Web Design",
+    "ano_publicacao": 2010,
+    "paginas": 480
+  },
+  {
+    "id": 137,
+    "titulo": "Construindo Sites com CSS e (X)HTML",
+    "autor": "Maurício Samy Silva",
+    "genero": "Web Design",
+    "ano_publicacao": 2009,
+    "paginas": 480
+  },
+  {
+    "id": 138,
+    "titulo": "Web Scraping com Python - 2ª edição",
+    "autor": "Ryan Mitchell",
+    "genero": "Programação",
+    "ano_publicacao": 2019,
+    "paginas": 336
+  },
+  {
+    "id": 139,
+    "titulo": "Primeiros Passos com a Linguagem Rust",
+    "autor": "José Augusto N. G. Manzano",
+    "genero": "Programação",
+    "ano_publicacao": 2018,
+    "paginas": 320
+  },
+  {
+    "id": 140,
+    "titulo": "Java Guia do Programador - 3ª Edição",
+    "autor": "Peter Jandl Junior",
+    "genero": "Programação",
+    "ano_publicacao": 2015,
+    "paginas": 632
+  },
+  {
+    "id": 141,
+    "titulo": "Redação Estratégica para UX",
+    "autor": "Torrey Podmajersky",
+    "genero": "UX Design",
+    "ano_publicacao": 2020,
+    "paginas": 208
+  },
+  {
+    "id": 142,
+    "titulo": "UX Design",
+    "autor": "Will Grant",
+    "genero": "UX Design",
+    "ano_publicacao": 2019,
+    "paginas": 240
+  },
+  {
+    "id": 143,
+    "titulo": "Design centrado no usuário",
+    "autor": "Travis Lowdermilk",
+    "genero": "UX Design",
+    "ano_publicacao": 2013,
+    "paginas": 224
+  },
+  {
+    "id": 144,
+    "titulo": "Aprendendo Material Design",
+    "autor": "Kyle Mew",
+    "genero": "UX Design",
+    "ano_publicacao": 2016,
+    "paginas": 320
+  },
+  {
+    "id": 145,
+    "titulo": "Design Thinking & Thinking Design",
+    "autor": "Adriana Melo / Ricardo Abelheira",
+    "genero": "UX Design",
+    "ano_publicacao": 2015,
+    "paginas": 240
+  },
+  {
+    "id": 146,
+    "titulo": "Fundamentos de HTML5 e CSS3",
+    "autor": "Maurício Samy Silva",
+    "genero": "Web Design",
+    "ano_publicacao": 2015,
+    "paginas": 336
+  },
+  {
+    "id": 147,
+    "titulo": "Crie seu próprio site",
+    "autor": "Nate Cooper",
+    "genero": "Web Design",
+    "ano_publicacao": 2014,
+    "paginas": 224
+  },
+  {
+    "id": 148,
+    "titulo": "Análise e Design Orientados a Objetos",
+    "autor": "Hélio Engholm Jr.",
+    "genero": "Engenharia de Software",
+    "ano_publicacao": 2013,
+    "paginas": 280
+  },
+  {
+    "id": 149,
+    "titulo": "Padrões de Design para Aplicativos Móveis",
+    "autor": "Theresa Neil",
+    "genero": "UX Design",
+    "ano_publicacao": 2012,
+    "paginas": 376
+  },
+  {
+    "id": 150,
+    "titulo": "Padrões de Projeto para o Android",
+    "autor": "Greg Nudelman",
+    "genero": "UX Design",
+    "ano_publicacao": 2013,
+    "paginas": 400
+  }
+]

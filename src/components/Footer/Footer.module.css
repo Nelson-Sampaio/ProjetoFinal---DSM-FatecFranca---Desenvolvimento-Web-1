@@ -1,0 +1,157 @@
+
+.footer {
+  background-color: var(--natal-green); /* Fundo verde escuro */
+  color: #fff;
+  padding-top: 4rem;
+  margin-top: auto; /* Garante que fique no final se a página for curta */
+}
+
+/* Grid Principal (4 Colunas no Desktop) */
+.grid {
+  display: grid;
+  grid-template-columns: 1fr; /* Mobile: 1 coluna */
+  gap: 3rem;
+  margin-bottom: 3rem;
+}
+
+/* --- Coluna 1: Marca --- */
+.brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-weight: 800;
+  margin-bottom: 1rem;
+}
+
+.brandIcon {
+  color: var(--natal-gold); /* Patinha dourada */
+}
+
+.brandDesc {
+  color: rgba(255, 255, 255, 0.7);
+  line-height: 1.6;
+  font-size: 0.95rem;
+  margin-bottom: 1.5rem;
+  max-width: 300px;
+}
+
+.socials {
+  display: flex;
+  gap: 1rem;
+}
+
+.socialBtn {
+  background: rgba(255, 255, 255, 0.1);
+  color: #fff;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all var(--motion-fast) var(--easing);
+}
+
+.socialBtn:hover {
+  background: var(--natal-red);
+  color: #fff;
+  transform: translateY(-3px);
+}
+
+/* --- Colunas de Links --- */
+.columnTitle {
+  font-size: 1.1rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  color: var(--natal-gold); /* Título dourado */
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.linkList, .contactList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+.linkList a {
+  color: rgba(255, 255, 255, 0.8);
+  text-decoration: none;
+  font-size: 0.95rem;
+  transition: all var(--motion-fast) var(--easing);
+  display: inline-block;
+}
+
+.linkList a:hover {
+  color: #fff;
+  transform: translateX(4px); /* Efeito de deslizar para a direita no hover */
+}
+
+/* --- Coluna de Contato --- */
+.contactList li {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.8rem;
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 0.95rem;
+  line-height: 1.4;
+}
+
+.contactIcon {
+  color: var(--natal-gold);
+  flex-shrink: 0;
+  margin-top: 2px;
+}
+
+/* --- Barra Inferior (Copyright) --- */
+.bottomBar {
+  background-color: rgba(0, 0, 0, 0.2); /* Escurece a barra de baixo */
+  padding: 1.5rem 0;
+  margin-top: 2rem;
+}
+
+.bottomContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 0.875rem;
+}
+
+.academicCredit {
+  font-weight: 600;
+  color: var(--natal-gold);
+}
+
+/* --- Responsivo (Tablet e Desktop) --- */
+@media (min-width: 768px) {
+  .grid {
+    grid-template-columns: repeat(2, 1fr); /* 2 colunas no Tablet */
+  }
+  
+  .bottomContent {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+@media (min-width: 992px) {
+  .grid {
+    grid-template-columns: 2fr 1fr 1fr 1.5fr; /* 4 colunas no Desktop */
+  }
+}
+
+/* Acessibilidade */
+@media (prefers-reduced-motion: reduce) {
+  .socialBtn:hover, .linkList a:hover {
+    transform: none;
+  }
+}

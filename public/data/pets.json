@@ -1,0 +1,213 @@
+
+[
+  {
+    "id": 1,
+    "tipo": "Cachorro",
+    "raca": "Labrador",
+    "porte": "Grande",
+    "expectativa_vida": "10-12 anos"
+  },
+  {
+    "id": 2,
+    "tipo": "Gato",
+    "raca": "Siamês",
+    "porte": "Médio",
+    "expectativa_vida": "12-15 anos"
+  },
+  {
+    "id": 3,
+    "tipo": "Chinchila",
+    "raca": "Doméstica",
+    "porte": "Pequeno",
+    "expectativa_vida": "20-35 anos"
+  },
+  {
+    "id": 4,
+    "tipo": "Cachorro",
+    "raca": "Poodle",
+    "porte": "Pequeno",
+    "expectativa_vida": "12-15 anos"
+  },
+  {
+    "id": 5,
+    "tipo": "Gato",
+    "raca": "Persa",
+    "porte": "Médio",
+    "expectativa_vida": "12-17 anos"
+  },
+  {
+    "id": 6,
+    "tipo": "Cachorro",
+    "raca": "Bulldog Francês",
+    "porte": "Pequeno",
+    "expectativa_vida": "10-12 anos"
+  },
+  {
+    "id": 7,
+    "tipo": "Coelho",
+    "raca": "Mini Lop",
+    "porte": "Pequeno",
+    "expectativa_vida": "8-10 anos"
+  },
+  {
+    "id": 8,
+    "tipo": "Hamster",
+    "raca": "Sírio",
+    "porte": "Pequeno",
+    "expectativa_vida": "2-3 anos"
+  },
+  {
+    "id": 9,
+    "tipo": "Papagaio",
+    "raca": "Verdadeiro",
+    "porte": "Médio",
+    "expectativa_vida": "40-60 anos"
+  },
+  {
+    "id": 10,
+    "tipo": "Tartaruga",
+    "raca": "Tigre d'água",
+    "porte": "Pequeno",
+    "expectativa_vida": "20-30 anos"
+  },
+  {
+    "id": 11,
+    "tipo": "Cachorro",
+    "raca": "Golden Retriever",
+    "porte": "Grande",
+    "expectativa_vida": "10-12 anos"
+  },
+  {
+    "id": 12,
+    "tipo": "Gato",
+    "raca": "Maine Coon",
+    "porte": "Grande",
+    "expectativa_vida": "12-15 anos"
+  },
+  {
+    "id": 13,
+    "tipo": "Porquinho-da-índia",
+    "raca": "Peruano",
+    "porte": "Pequeno",
+    "expectativa_vida": "5-7 anos"
+  },
+  {
+    "id": 14,
+    "tipo": "Cachorro",
+    "raca": "Shih Tzu",
+    "porte": "Pequeno",
+    "expectativa_vida": "10-16 anos"
+  },
+  {
+    "id": 15,
+    "tipo": "Calopsita",
+    "raca": "Cockatiel",
+    "porte": "Pequeno",
+    "expectativa_vida": "15-25 anos"
+  },
+  {
+    "id": 16,
+    "tipo": "Cachorro",
+    "raca": "Pastor Alemão",
+    "porte": "Grande",
+    "expectativa_vida": "9-13 anos"
+  },
+  {
+    "id": 17,
+    "tipo": "Gato",
+    "raca": "Sphynx",
+    "porte": "Médio",
+    "expectativa_vida": "9-15 anos"
+  },
+  {
+    "id": 18,
+    "tipo": "Furão",
+    "raca": "Doméstico",
+    "porte": "Pequeno",
+    "expectativa_vida": "6-10 anos"
+  },
+  {
+    "id": 19,
+    "tipo": "Cachorro",
+    "raca": "Beagle",
+    "porte": "Médio",
+    "expectativa_vida": "12-15 anos"
+  },
+  {
+    "id": 20,
+    "tipo": "Peixe",
+    "raca": "Betta",
+    "porte": "Pequeno",
+    "expectativa_vida": "2-4 anos"
+  },
+  {
+    "id": 21,
+    "tipo": "Cachorro",
+    "raca": "Rottweiler",
+    "porte": "Grande",
+    "expectativa_vida": "8-10 anos"
+  },
+  {
+    "id": 22,
+    "tipo": "Gato",
+    "raca": "Bengal",
+    "porte": "Médio",
+    "expectativa_vida": "12-16 anos"
+  },
+  {
+    "id": 23,
+    "tipo": "Cacatua",
+    "raca": "Ninfa",
+    "porte": "Médio",
+    "expectativa_vida": "20-30 anos"
+  },
+  {
+    "id": 24,
+    "tipo": "Cachorro",
+    "raca": "Border Collie",
+    "porte": "Médio",
+    "expectativa_vida": "12-15 anos"
+  },
+  {
+    "id": 25,
+    "tipo": "Iguana",
+    "raca": "Verde",
+    "porte": "Grande",
+    "expectativa_vida": "15-20 anos"
+  },
+  {
+    "id": 26,
+    "tipo": "Cachorro",
+    "raca": "Dachshund",
+    "porte": "Pequeno",
+    "expectativa_vida": "12-16 anos"
+  },
+  {
+    "id": 27,
+    "tipo": "Gato",
+    "raca": "Angorá",
+    "porte": "Médio",
+    "expectativa_vida": "12-18 anos"
+  },
+  {
+    "id": 28,
+    "tipo": "Gerbil",
+    "raca": "Mongoliano",
+    "porte": "Pequeno",
+    "expectativa_vida": "3-4 anos"
+  },
+  {
+    "id": 29,
+    "tipo": "Cachorro",
+    "raca": "Husky Siberiano",
+    "porte": "Grande",
+    "expectativa_vida": "12-14 anos"
+  },
+  {
+    "id": 30,
+    "tipo": "Cobra",
+    "raca": "Jiboia",
+    "porte": "Médio",
+    "expectativa_vida": "20-30 anos"
+  }
+]
